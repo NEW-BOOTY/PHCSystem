@@ -1,0 +1,27 @@
+<!--
+  Copyright © 2024 Devin B. Royal. All Rights Reserved.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.devinroyal.phc</groupId>
+    <artifactId>PHCSystem</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>Prime Harmonics Calculus System</name>
+    <description>Multi-module Maven project combining PHC Interpreter and PHC Prime Harmonics Calculus</description>
+
+    <modules>
+        <module>phc-interpreter</module>
+        <module>PHC-PrimeHarmonicsCalculus</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+</project>
